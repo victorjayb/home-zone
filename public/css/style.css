@@ -1,0 +1,207 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #383637;
+    background-color: #ddd;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.top-nav {
+    list-style-type: none;
+    display: flex;
+}
+.top-nav li {
+    margin-right: 4rem;
+}
+.top-nav__link {
+    text-decoration: none;
+    color: #383637;
+}
+
+#form-area {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+#text {
+    height: 5rem;
+    width: 40rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+#submit {
+    height: 5rem;
+    width: 12rem;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #c69963;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+main {
+    height: 60rem;
+    margin-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(16, 29, 44, .8), rgba(16, 29, 44, .8)), url(../img/house-1.jpeg);
+}
+main h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.btn {
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.6rem;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    border: none;
+    cursor: pointer; 
+}
+.btn--white {
+    background-color: #c69963;
+    color: #fff; 
+}
+.homes {
+    margin: 15rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 7rem; 
+}
+  
+.home {
+    background-color: #f9f7f6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 3.5rem; 
+}
+.home__img {
+      width: 100%;
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+      z-index: 1; 
+}
+.home__like {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      fill: #c69963;
+      height: 2.5rem;
+      width: 2.5rem;
+      z-index: 2;
+      justify-self: end;
+      margin: 1rem; 
+}
+.home__name {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 80%;
+    justify-self: center;
+    align-self: end;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #101d2c;
+    color: #fff;
+    font-weight: 400;
+    z-index: 3;
+    transform: translateY(50%); 
+}
+.home__location, .home__rooms {
+    margin-top: 2.5rem; 
+}
+.home__location, .home__rooms, .home__area, .home__price {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center; 
+}
+.home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+    fill: #c69963;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem; 
+}
+.home__btn {
+    grid-column: 1 / -1;
+    background-color: #c69963;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem;
+    cursor: pointer;
+    transition: all .2s; 
+}
+
+.footer {
+    background-color: #101d2c;
+    display: flex;
+    padding: 8rem; 
+    flex-direction: column;
+}
+  
+.bottom-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-nav__link:link, .bottom-nav__link:visited {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    display: block;
+    transition: all .2s; 
+}
+.bottom-nav__link:hover, .bottom-nav__link:active {
+      background-color: rgba(255, 255, 255, 0.05);
+      transform: translateY(-3px); 
+}
+  
+.copyright {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin: 6rem auto 0 auto;
+    text-align: center;
+    width: 70%; 
+}
