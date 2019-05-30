@@ -1,0 +1,20 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "name": "Beautiful family house",
+      "location": "Lekki",
+      "price": "N500,000",
+      "rooms": "5 rooms",
+      "description": "A large family house situated in a serene environment",
+      "img_url": "img/house-1.jpeg"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "admin001",
+      "password": "thisisapassword"
+    }
+  ]
+}
