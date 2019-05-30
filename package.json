@@ -1,0 +1,24 @@
+{
+  "name": "home-zone",
+  "version": "1.0.0",
+  "description": "An online house rental system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorjayb/home-zone.git"
+  },
+  "keywords": [
+    "house",
+    "rent",
+    "home"
+  ],
+  "author": "Victor Bassey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorjayb/home-zone/issues"
+  },
+  "homepage": "https://github.com/victorjayb/home-zone#readme"
+}
