@@ -8,6 +8,15 @@
       "rooms": "5 rooms",
       "description": "A large family house situated in a serene environment",
       "img_url": "img/house-1.jpeg"
+    },
+    {
+      "name": "Modern Glass House",
+      "location": "Yaba",
+      "price": "N200000",
+      "rooms": "3 rooms",
+      "description": "A modern house in the heart of Yaba town",
+      "img_url": "./img/house-2.jpeg",
+      "id": 2
     }
   ],
   "admin": [
