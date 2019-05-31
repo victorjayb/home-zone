@@ -1,0 +1,22 @@
+{
+  "houses": [
+    {
+      "name": "Majestic Palace House",
+      "location": "Sagamu",
+      "price": "N450000",
+      "rooms": "3 rooms",
+      "description": "A beautiful house in a really serene environment",
+      "img_url": "./img/house-5.jpeg",
+      "id": 5
+    },
+    {
+      "name": "Modern Family Apartment",
+      "location": "Ijebu Ode",
+      "price": "N500000",
+      "rooms": "6 rooms",
+      "description": "A modern apartment in the heart of the city where life is most interesting",
+      "img_url": "./img/house-6.jpeg",
+      "id": 6
+    }
+  ]
+}

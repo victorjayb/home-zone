@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>House Me</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h3>HomeZone</h3>
+        <nav>
+            <ul class="top-nav">
+                <li><a href="#search" class="top-nav__link">Find Houses</a></li>
+                <li><a href="pages/admin2.html" class="top-nav__link">Admin Page</a></li>
+                <li><a href="#footer" class="top-nav__link">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Rent a house in any location </h1>
+        <div>
+            <a class="btn btn--white" href="#homes-section">View all houses</a>
+        </div>
+    </main>
+    <section class="find-house" id="search">
+        <div id="search-area">
+            <h2 id="description">Find Your Next House</h2>
+            <div id="search">
+                <input type="text" id="text" placeholder="Enter Location" name="text" required>
+                <input type="submit" class="submit" value="Find House">
+            </div>
+        </div>
+    </section>
+    <section class="homes-area" id="homes-section">
+    <div class="homes">
+        <div class="home">
+            <img src="./img/house-1.jpeg" alt="House 1" class="home__img">
+            <svg class="home__like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home__name">Beautiful family house</h5>
+            <div class="home__location">
+                <svg>
+                    <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                </svg>
+                <p>Lekki</p>
+            </div>
+            <div class="home__rooms">
+                <svg>
+                    <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+                </svg>
+                <p>5 rooms</p>
+            </div>
+            <div class="home__area">
+            </div>
+            <div class="home__price">
+                <svg>
+                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <p>$500,000</p>
+            </div>
+            <button class="home__btn">View house</button>
+        </div>
+        <div class="home">
+            <img src="./img/house-2.jpeg" alt="House 2" class="home__img">
+            <svg class="home__like">
+                <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            </svg>
+            <h5 class="home__name">Mordern Glass House</h5>
+            <div class="home__location">
+                <svg>
+                    <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                </svg>
+                <p>Yaba</p>
+            </div>
+                <div class="home__rooms">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+                    </svg>
+                    <p>3 rooms</p>
+                </div>
+                <div class="home__area">
+                   
+                </div>
+                <div class="home__price">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-key"></use>
+                    </svg>
+                    <p>N200,000</p>
+                </div>
+                <button class="home__btn">View house</button>
+        </div>
+        <div class="home">
+                <img src="./img/house-3.jpeg" alt="House 3" class="home__img">
+                <svg class="home__like">
+                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+                </svg>
+                <h5 class="home__name">Cozy Country House</h5>
+                <div class="home__location">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                    </svg>
+                    <p>Abeokuta</p>
+                </div>
+                <div class="home__rooms">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-profile-male"></use>
+                    </svg>
+                    <p>4 rooms</p>
+                </div>
+                <div class="home__area">
+                    
+                </div>
+                <div class="home__price">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#icon-key"></use>
+                    </svg>
+                    <p>N300,000</p>
+                </div>
+                <button class="home__btn">View house</button>
+        </div>    
+    </div>
+    <button class="btn btn--navy">See all &rarr;</button>
+    </section>
+    <footer class="footer" id="footer">
+        <ul class="bottom-nav">
+            <li class="bottom-nav__item"><a href="#search" class="bottom-nav__link">Find your dream home</a></li>
+            <li class="bottom-nav__item"><a href="#" class="bottom-nav__link">Contact us</a></li>
+            <li class="bottom-nav__item"><a href="#" class="bottom-nav__link">List your house</a></li>
+            <li class="bottom-nav__item"><a href="#" class="bottom-nav__link">Come work with us!</a></li>
+        </ul>
+        <p class="copyright">
+            &copy; Copyright HouseMe 2019. Built by Victor J. Bassey at Decagon Bootcamp. 
+        </p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
