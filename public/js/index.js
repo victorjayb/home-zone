@@ -1,5 +1,5 @@
 // Variables
-const homes = document.querySelector('#homes');
+const homes = document.querySelector('.homes');
 const viewAllBtn = document.querySelector('.btn--navy');
 const searchBtn = document.querySelector('#submit');
 const search = document.querySelector('#text');
@@ -64,3 +64,4 @@ viewAllBtn.addEventListener('click', () => {
 searchBtn.addEventListener('click', () => {
     loadHouses(`http://localhost:3000/houses?q=${search.value}`)
 });
+

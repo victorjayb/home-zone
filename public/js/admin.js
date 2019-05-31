@@ -61,6 +61,13 @@ const deleteItem = id => {
 const deleteRequest = id => {
     const xhr = new XMLHttpRequest();
     xhr.open('DELETE', `http://localhost:3000/houses/${id}`, true);
+    xhr.onload = () => {
+        if(xhr.status === 200) {
+            const item = document.querySelector(`[data-itemid="${id}]"`);
+            item.parentElement.removeChild(item);
+        }
+    }
+    xhr.send()
 
 }
 
@@ -71,6 +78,6 @@ adminHomes.addEventListener('click', () => {
 homes.addEventListener('click', e => {
     if (e.target.classList.contains('delete-btn')) {
         const id = e.target.closest('.home').dataset.itemid;
-        console.log(id);
+        deleteRequest(id);
     }
 });

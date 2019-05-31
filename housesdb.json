@@ -1,29 +1,31 @@
 {
   "houses": [
     {
-      "id": 1,
-      "name": "Beautiful family house",
-      "location": "Lekki",
-      "price": "N500,000",
-      "rooms": "5 rooms",
-      "description": "A large family house situated in a serene environment",
-      "img_url": "img/house-1.jpeg"
+      "name": "Large Rustical Villa",
+      "location": "Banana Island",
+      "price": "N700000",
+      "rooms": "4 rooms",
+      "description": "A large villa with five star facilities",
+      "img_url": "./img/house-4.jpeg",
+      "id": 4
     },
     {
-      "name": "Modern Glass House",
-      "location": "Yaba",
-      "price": "N200000",
+      "name": "Majestic Palace House",
+      "location": "Sagamu",
+      "price": "N450000",
       "rooms": "3 rooms",
-      "description": "A modern house in the heart of Yaba town",
-      "img_url": "./img/house-2.jpeg",
-      "id": 2
-    }
-  ],
-  "admin": [
+      "description": "A beautiful house in a really serene environment",
+      "img_url": "./img/house-5.jpeg",
+      "id": 5
+    },
     {
-      "id": 1,
-      "username": "admin001",
-      "password": "thisisapassword"
+      "name": "Modern Family Apartment",
+      "location": "Ijebu Ode",
+      "price": "N500000",
+      "rooms": "6 rooms",
+      "description": "A modern apartment in the heart of the city where life is most interesting",
+      "img_url": "./img/house-6.jpeg",
+      "id": 6
     }
   ]
 }
