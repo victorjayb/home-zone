@@ -1,15 +1,6 @@
 {
   "houses": [
     {
-      "name": "Large Rustical Villa",
-      "location": "Banana Island",
-      "price": "N700000",
-      "rooms": "4 rooms",
-      "description": "A large villa with five star facilities",
-      "img_url": "./img/house-4.jpeg",
-      "id": 4
-    },
-    {
       "name": "Majestic Palace House",
       "location": "Sagamu",
       "price": "N450000",

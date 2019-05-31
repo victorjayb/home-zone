@@ -63,7 +63,7 @@ const deleteRequest = id => {
     xhr.open('DELETE', `http://localhost:3000/houses/${id}`, true);
     xhr.onload = () => {
         if(xhr.status === 200) {
-            const item = document.querySelector(`[data-itemid="${id}]"`);
+            const item = document.querySelector(`[data-itemid="${id}"]`);
             item.parentElement.removeChild(item);
         }
     }
